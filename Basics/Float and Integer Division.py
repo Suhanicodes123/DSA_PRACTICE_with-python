@@ -1,6 +1,7 @@
-Problem:Floor and Integer Division
+Problem:Float and Integer Division
 Concept:Division
 Platform:Hackerrank
+
 
 
 if __name__ == '__main__':
