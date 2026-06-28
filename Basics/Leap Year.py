@@ -1,5 +1,6 @@
 #To know the input year is leap year or not
 
+
 def is_leap(year): 
     if year % 4==0: #remainder when divided by 4 is 0
         print("True")
@@ -11,6 +12,7 @@ def is_leap(year):
         print("False")
     
     return leap
+
 
 year = int(input())
 print(is_leap(year))
