@@ -12,8 +12,9 @@ n = int(input())
 money = 0
 
 for _ in range(n):
-    size, price = map(int, input().split())
+    size, price = map(int, input().split()) # read the size and price of the shoe being sold
+
     if sizes[size] > 0:
         money += price
         sizes[size] -= 1
-print(money) 
+print(money)  #print the total money earned from selling the shoes

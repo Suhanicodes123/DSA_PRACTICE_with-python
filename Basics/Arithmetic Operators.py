@@ -9,4 +9,4 @@ if __name__ == '__main__':
     sum = a+b
     difference = a-b
     product = a*b
-    print(sum,difference,product,sep="\n")
+    print(sum,difference,product,sep="\n") #prints the results on new lines
