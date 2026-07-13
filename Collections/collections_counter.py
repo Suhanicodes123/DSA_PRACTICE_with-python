@@ -17,4 +17,5 @@ for _ in range(n):
     if sizes[size] > 0:
         money += price
         sizes[size] -= 1
+
 print(money)  #print the total money earned from selling the shoes
