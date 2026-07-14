@@ -3,7 +3,6 @@ Concept:Dictionary and Hashing
 PLatform:Hackerrank
 
 
-
 n = int(input())
     student_marks = {}
     for _ in range(n):
