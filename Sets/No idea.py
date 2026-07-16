@@ -12,6 +12,7 @@ B = set(map(int, input().split())) # Read the set B
 
 happiness = 0
 
+
 for num in arr:
     if num in A:
         happiness += 1
