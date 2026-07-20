@@ -12,5 +12,4 @@ n = int(input())
     query_name = input()
     scores=student_marks[query_name]
     avg=sum(scores)/len(scores) 
-    
-print(f"{avg:.2f}") 
+    print(f"{avg:.2f}") 
