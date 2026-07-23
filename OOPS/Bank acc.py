@@ -17,7 +17,6 @@ class Account:
         print("Total balance =", self.get_balance()) # print the total balance after crediting
 
     def get_balance(self):
-        
         return self.balance
 
 #EXAMPLE:
