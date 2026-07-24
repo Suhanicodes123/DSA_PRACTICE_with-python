@@ -14,7 +14,6 @@ y = int(input())
             for z in range(0,z+1):
                 if x+y+z!=n:
                     result.append([x,y,z])
-    
-print(result)
+    print(result)
                     
     
