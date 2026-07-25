@@ -12,6 +12,5 @@ def print_rangoli(size):
         s = "-".join(alpha[size - 1:i:-1] + alpha[i:size])
         lines.append(s.center(width, "-"))
         
-    
     print("\n".join(lines[::-1] + lines[1:]))
     
